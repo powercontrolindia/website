@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6969fa">
+    <title>Power Control India</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sliderStyle.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">
+            <img src="assets/logo.png" alt="Power Control India" class="logo-img"><h5 class="logo-text">Power Control India</h5>
+        </a>
+        <ul class="navbar-links">
+          <li class="navbar-dropdown">
+            <a href="#">Home</a>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="#">Products</a>
+            <div class="dropdown">
+              <a href="products.html#automatic-voltage-regulator">Automatic Voltage Regulators
+                <div class="sub-menu">
+                    <a href="products.html#brushless-avr"><p>Brushless AVR</p></a>
+                    <a href="products.html#slipring-avr"><p>Slipring AVR</p></a>
+                    <a href="products.html#stamford-avr"><p>Stamford AVR</p></a>
+                </div>
+               </a>
+              <a href="products.html#smps-battery-chargers">SMPS Battery Chargers
+                <div class="sub-menu">
+                    <a href="products.html#smps-12v"><p>12V DC Series</p></a>
+                    <a href="products.html#smps-24v"><p>Slipring AVR</p></a>
+                </div>
+              </a>
+              <a href="products.html#auto-genset-start-stop-controller">Automatic Generator Start/Stop Controller</a>
+              <a href="products.html#auto-generator-stop-unit">Automatic Generator Stop Unit</a>
+              <a href="products.html#hour-meter">Hour Meter</a>
+              <a href="products.html#rectifier">Electric Rectifier</a>
+              <a href="products.html#controllers">Controllers
+                <div class="sub-menu">
+                    <a href="products.html#koel-green-controllers"><p>For KOEL GREEN</p></a>
+                    <a href="products.html#cummins-controller"><p>For CUMMINS</p></a>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+              <a href="#contact-section">Contact Us</a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class="menu-item mail" onclick="openForm()"><img src="assets/mail.png" alt="Get a quote"></div>
+    <a href="tel:+919803424344" class="menu-item call"><img src="assets/telephone.png" alt="Call Us"></a>
+    <div class="top-bar">
+        <div class="make-in-india">
+            <h4>Product of India</h4>
+            <img src="assets/india.png" alt="Made In India" class="lion-img">
+        </div>
+        <a href="assets/gstDetails.png" target="_blank" class="top-bar--component">
+            <h4>GST Number</h4>
+            <h3>03GCBPS7526A1ZV</h3>
+        </a>
+        <a href="tel:+919803424344" class="top-bar--component">
+            <h4>Call now</h4>
+            <h3>+919803424344</h3>
+        </a>
+    </div>
+
+    <section class="hero">
+
+        <div class="left-div">
+            <div class="carousel-container">
+                <div class="mySlides animate">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/pci%206m%20(1).jpg?alt=media&token=0435b3f5-e531-4652-8af5-2846fc50941a" alt="slide" />
+                  <div class="number">1 / 5</div>
+                  <div class="text">Slipring AVR PCI-6M</div>
+                </div>
+              
+                <div class="mySlides animate">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-7_cover.jpg?alt=media&token=1ebd6965-bf57-4f58-81a6-17b34dc996a1" alt="slide" />
+                  <div class="number">2 / 5</div>
+                  <div class="text">Brushless AVR PCI-7</div>
+                </div>
+              
+                <div class="mySlides animate">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/Sx440%20cover.jpg?alt=media&token=42d29128-d907-4058-bd4f-8b74bd8f6c89" alt="slide" />
+                  <div class="number">3 / 5</div>
+                  <div class="text">Stamford AVR SX440</div>
+                </div>
+              
+                <div class="mySlides animate">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC1210M%20WITH%20NO-NC%20(1).jpg?alt=media&token=27ac014b-d062-4d6f-b015-e197825d58b3" alt="slide" />
+                  <div class="number">4 / 5</div>
+                  <div class="text">SMPS Chargers</div>
+                </div>
+              
+                <div class="mySlides animate">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/AUTOMATIC%20GENERATOR%20START%20STOP%20CONTROLLER.jpg?alt=media&token=b2c29b6a-fd77-4612-a34c-29a370fc6b49" alt="slide" />
+                  <div class="number">5 / 5</div>
+                  <div class="text">Auto Genset Controller</div>
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="prevSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+              
+                <!-- The dots/circles -->
+                <div class="dots-container">
+                  <span class="dots" onclick="currentSlide(1)"></span>
+                  <span class="dots" onclick="currentSlide(2)"></span>
+                  <span class="dots" onclick="currentSlide(3)"></span>
+                  <span class="dots" onclick="currentSlide(4)"></span>
+                  <span class="dots" onclick="currentSlide(5)"></span>
+                </div>
+              </div>
+        </div>
+        <div class="right-div">
+            <h1 style="color: rgb(105, 105, 250);">Power Control India</h1>
+            <h3>We are <span style="color: gold;">empowering</span> India with our products</h3>
+            <br>
+            <br>
+            <p>We are among the selected manufacturers of <strong>Brushless Alternator AVR, Slip Ring AVR, Electric Solenoid, Battery Charger, AMF Panel, Power Rectifier</strong>, etc. We occupied large focus on the quality of our collection and to ensure the same, we make use of excellent quality... &nbsp<a href="about.html">Read More</a></p>
+            <br>
+            <div class="btn-grp">
+                <a href="products.html" class="btn products-btn">View Our Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="title-heading">Why choose us?</h1>
+        <div class="color-bar"></div>
+        <div class="wrapper">
+            <div class="features-card">
+                <img src="assets/experience.png">
+                <p>We're <strong>serving excellence</strong> in this industry for more than 8 years.</p>
+            </div>
+            <div class="features-card">
+                <img src="assets/practice.png">
+                <p>We offer <strong>wide range of products</strong> for suiting all of your requirements.</p>
+            </div>
+            <div class="features-card">
+                <img src="assets/satisfaction.png">
+                <p>Our clients love our work. <strong>Your satisfaction</strong> is our top priority.</p>
+            </div>
+            <div class="features-card">
+                <img src="assets/truck.png">
+                <p>Despite of <strong>our stringent quality checks</strong>, we always <strong>deliver on time</strong></p>
+            </div>
+        </div>
+    </section>
+    <div class="extra-space"></div>
+    <section>
+        <h1 class="title-heading">Products by category</h1>
+        <div class="color-bar"></div>
+        <div class="wrapper" id="categories">
+            <a href="products.html#automatic-voltage-regulator" class="category-card">Automatic Voltage Regulator</a>
+            <a href="products.html#smps-battery-chargers" class="category-card">SMPS Battery Chargers</a>
+            <a href="products.html#auto-genset-start-stop-controller" class="category-card">Auto Genset Control Unit</a>
+            <a href="products.html#auto-generator-stop-unit" class="category-card">Auto Generator Stop Unit</a>
+            <a href="products.html#hour-meter" class="category-card">Hour Meter</a>
+            <a href="products.html#rectifier" class="category-card">Electric Rectifier</a>
+            <a href="products.html#controllers" class="category-card">Controllers</a>
+        </div>
+    </section>
+
+    <section class="customSection">
+        <h1 class="title-heading">Latest arrivals</h1>
+        <div class="color-bar"></div>
+        <div class="products-container">
+            <div class="dual-products-div">
+                <div class="product-card">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/pci%206m%20(1).jpg?alt=media&token=0435b3f5-e531-4652-8af5-2846fc50941a">
+                    <h3>PCI-6M</h3>
+                    <p>Used for regulation of output voltage of Slip ring up to 30 kVA alternators</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-7_cover.jpg?alt=media&token=1ebd6965-bf57-4f58-81a6-17b34dc996a1">
+                    <h3>PCI-7</h3>
+                    <p>In line with clients' diverse requirements, we are involved in providing an optimum quality range of PCI-7 AVR.</p>
+                </div>
+            </div>
+            <div class="dual-products-div">
+                <div class="product-card">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/Sx440%20cover.jpg?alt=media&token=42d29128-d907-4058-bd4f-8b74bd8f6c89">
+                    <h3>SX440</h3>
+                    <p>Used for regulation of output voltage of Stamford AND China set used in mobile towers alternators</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/AUTOMATIC%20GENERATOR%20START%20STOP%20CONTROLLER.jpg?alt=media&token=b2c29b6a-fd77-4612-a34c-29a370fc6b49">
+                    <h3>PCI-BC1210M WITH NO-NC</h3>
+                    <p>SMPS battery charger 12vdc, 10 amps silent dc with metal body slim design and all protections support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="title-heading">What our clients say?</h1>
+    <div class="color-bar"></div>
+    <br>
+    <a href="https://g.page/Powercontrolindia?share" target="_blank" class="reviews-link">Click here to read more reviews on Google</a>
+    <br>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="testimonial-card swiper-slide">
+                <div class="review">
+                    <p>I deal with pci and I got very good sales and service. If you meed any service related to diesel generator you should visit here .</p>
+                </div>
+                <div class="customer">
+                    <h3 class="customer-name">Abhishek Tuli</h3>
+                    <h5 class="customer-company">⭐⭐⭐⭐⭐</h5>
+                </div>
+            </div>
+            <div class="testimonial-card swiper-slide">
+                <div class="review">
+                    <p>Good quality and on time delivery. Very impressive service.</p>
+                </div>
+                <div class="customer">
+                    <h3 class="customer-name">Rajpal Sharma</h3>
+                    <h5 class="customer-company">⭐⭐⭐⭐⭐</h5>
+                </div>
+            </div>
+            <div class="testimonial-card swiper-slide">
+                <div class="review">
+                    <p>They are providing best in class service for their products.</p>
+                </div>
+                <div class="customer">
+                    <h3 class="customer-name">Harpreet Singh</h3>
+                    <h5 class="customer-company">⭐⭐⭐⭐⭐</h5>
+                </div>
+            </div>
+        </div>
+            
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <h1 class="title-heading">Contact Us</h1>
+    <div class="color-bar"></div>
+    <section id="contact-section">
+        <div class="left">
+            <div class="form-area">
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <input type="tel" name="phone" id="phone" placeholder="Your phone number">
+                    <input type="email" name="email" id="email" placeholder="Your email ID (if any)">
+                    <textarea name="msg" id="msg" placeholder="Enter your message here..." cols="30" rows="10"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="right">
+            <h4>Our Address: </h4>
+            <p>Ram Tali, Jahaj Ghar, Amritsar, Punjab 143001</p>
+            <br>
+            <h4>Contact Number: </h4>
+            <p>+91 9803424344</p>
+            <br>
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.602349729903!2d74.8892062!3d31.6228806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x962fcd8a99833630!2sPower%20Control%20India!5e0!3m2!1sen!2sin!4v1634214797459!5m2!1sen!2sin"></iframe></div><style>.mapouter{position:relative;text-align:right;width:90%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:90%;height:300px;}.gmap_iframe {height:300px!important;}</style></div>
+
+        </div>
+    </section>
+
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.602349729903!2d74.8892062!3d31.6228806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x962fcd8a99833630!2sPower%20Control%20India!5e0!3m2!1sen!2sin!4v1634214797459!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+    
+
+    <section id="form-section">
+        <div class="form-wrapper">
+            <h2>Get A Quote</h2>
+            <form action="" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="Phone" id="phone" placeholder="Your phone number" required />
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="Message" id="message" rows="5" placeholder="Type your message here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="submit"><i class="far fa-paper-plane"></i>Send</button>
+            </div>
+            </form>
+        </div>
+        <div class="close-btn" onclick="closeForm()"><h4>X</h4></div>
+    </section>
+
+    <footer>
+        <div class="notice">Copyright 2021 Power Control India - All Rights Reserved</div>
+        <div class="social">
+            <p>Find us on:</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/powercontrolindia/" target="_blank" class="social-icon"><img src="assets/facebook.png"></a>
+                <a href="https://www.instagram.com/powercontrolindia/?hl=en" target="_blank" class="social-icon"><img src="assets/instagram.png"></a>
+                <a href="https://www.indiamart.com/powercontrolindia/" target="_blank" class="social-icon"><img src="assets/imlogo.png"></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="Slider.js"></script>
+    <script src="contactform.js"></script>
+    <script src="testimonials.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+</body>
+</html>

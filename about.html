@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6969fa">
+
+    <title>About PCI</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">
+            <img src="assets/logo.png" alt="Power Control India" class="logo-img"><h5 class="logo-text">Power Control India</h5>
+        </a>
+        <ul class="navbar-links">
+          <li class="navbar-dropdown">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="products.html">Products</a>
+            <div class="dropdown">
+              <a href="#">Automatic Voltage Regulators
+                <div class="sub-menu">
+                    <a href="products.html#brushless-avr"><p>Brushless AVR</p></a>
+                    <a href="products.html#slipring-avr"><p>Slipring AVR</p></a>
+                    <a href="products.html#stamford-avr"><p>Stamford AVR</p></a>
+                </div>
+               </a>
+              <a href="#">SMPS Battery Chargers
+                <div class="sub-menu">
+                    <a href="products.html#smps-12v"><p>12V DC Series</p></a>
+                    <a href="products.html#smps-24v"><p>Slipring AVR</p></a>
+                </div>
+              </a>
+              <a href="products.html#auto-genset-start-stop-controller">Automatic Generator Start/Stop Controller</a>
+              <a href="products.html#auto-generator-stop-unit">Automatic Generator Stop Unit</a>
+              <a href="products.html#hour-meter">Hour Meter</a>
+              <a href="products.html#rectifier">Electric Rectifier</a>
+              <a href="#">Controllers
+                <div class="sub-menu">
+                    <a href="products.html#koel-green-controllers"><p>For KOEL GREEN</p></a>
+                    <a href="products.html#cummins-controller"><p>For CUMMINS</p></a>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="#">About Us</a>
+          </li>
+          <li>
+              <a href="index.html#contact-section">Contact Us</a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class="menu-item mail" onclick="openForm()"><img src="assets/mail.png" alt="Get a quote"></div>
+    <a href="tel:+919803424344" class="menu-item call"><img src="assets/telephone.png" alt="Call Us"></a>
+            
+            <div class="header">
+
+                <!--Content before waves-->
+                <div class="inner-header flex">
+                <!--Just the logo.. Don't mind this-->
+                <img src="assets/logo.png" alt="Power Control India" class="logo">
+                <h1>About Our Company</h1>
+                </div>
+                
+                <!--Waves Container-->
+                <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+                </svg>
+                </div>
+                <!--Waves end-->
+                
+            </div>
+            <!--Header ends-->
+            
+            <!--Content starts-->
+            <div class="content flex">
+            <p>Established in the year 2013, we, <strong>Power Control India</strong>, are among the selected manufacturer of an attractive range of <strong>Brushless Alternator AVR, Slip Ring AVR, Electric Solenoid, Battery Charger, AMF Panel, Power Rectifier, etc</strong>. We occupied large focus on the quality of our collection and to ensure the same, we make use of excellent quality raw materials. These materials are obtained from our reliable and qualified vendors which are results of long term tenure. Ever new is the selected choice of its customers in the market, owing to its elegant designs, excellent quality, and impeccable finishing. We are extremely focused for our work and have placed ourselves as one of the leading names in the industry.
+                We have established a world class foundation and are supported by a team of qualified and skilled professionals which are well aware of the latest fashion norms. Our large workspace and well-skilled workforce have enabled us to gather a large number of great customers in the market. We owe our success to the unlimited product range, efforts of our specialists and our majestic infrastructure also. From the very beginning, we are focused to get the various customers demands and to fulfill the specific requirements on a timely basis. We are enjoying an unmatched position in the industry under the intelligent leadership of "Mr. Narinder Sharma ". It is because of his large industry information and regular motivation that we put in our best efforts and try to achieve the company goals on time while keeping up with the fame and awesome track record that we have earned in these years. We have achieved a huge clientele due to our quality products.</p>
+            </div>
+            <!--Content ends-->
+
+            <section id="form-section">
+                <div class="form-wrapper">
+                    <h2>Get A Quote</h2>
+                    <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="Phone" id="phone" placeholder="Your phone number" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="Message" id="message" rows="5" placeholder="Type your message here...."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit"><i class="far fa-paper-plane"></i>Send</button>
+                    </div>
+                    </form>
+                </div>
+                <div class="close-btn" onclick="closeForm()"><h4>X</h4></div>
+            </section>
+
+            <footer>
+                <div class="notice">Copyright 2021 Power Control India - All Rights Reserved</div>
+                <div class="social">
+                    <p>Find us on:</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/powercontrolindia/" target="_blank" class="social-icon"><img src="assets/facebook.png"></a>
+                        <a href="https://www.instagram.com/powercontrolindia/?hl=en" target="_blank" class="social-icon"><img src="assets/instagram.png"></a>
+                        <a href="https://www.indiamart.com/powercontrolindia/" target="_blank" class="social-icon"><img src="assets/imlogo.png"></a>
+                    </div>
+                </div>
+            </footer>
+
+        <script src="contactform.js"></script>
+</body>
+</html>
