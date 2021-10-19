@@ -142,8 +142,8 @@ const Products = [
         category: "SMPS Battery Charger 24V",
         title: "PCI-BC2410M",
         price: "---",
-        techDesc: "This is PCI-BC2410M's technical description.",
-        addInfo: "This is PCI-BC2410M's additional information."
+        techDesc: "No data available, contact us for enquiry.",
+        addInfo: "No data available, contact us for enquiry."
     },
     {
         productId: 16,
