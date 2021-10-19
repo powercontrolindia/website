@@ -68,7 +68,6 @@
         </ul>
     </nav>
 
-    <div class="menu-item mail" onclick="openForm()"><img src="assets/mail.png" alt="Get a quote"></div>
     <a href="tel:+919803424344" class="menu-item call"><img src="assets/telephone.png" alt="Call Us"></a>
     <div class="top-bar">
         <img src="assets/india.png" alt="Made In India" class="lion-img">
@@ -253,15 +252,15 @@
     </div>
 
     <h1 class="title-heading">Contact Us</h1>
+    <iframe frameborder="0" name="blank-iframe" id="blank-iframe" style="width: 100%; display: none;"></iframe>
     <div class="color-bar"></div>
     <section id="contact-section">
         <div class="left">
             <div class="form-area">
-                <form action="">
-                    <input type="text" name="name" id="name" placeholder="Enter your name">
-                    <input type="tel" name="phone" id="phone" placeholder="Your phone number">
-                    <input type="email" name="email" id="email" placeholder="Your email ID (if any)">
-                    <textarea name="msg" id="msg" placeholder="Enter your message here..." cols="30" rows="10"></textarea>
+                <form action="https://docs.google.com/forms/u/2/d/1qpbFBcXtjCr9oSVKod1yzDCGe3mS09iBHkzphmqqMsA/formResponse" method="POST" target="blank-iframe" onsubmit="showAlert()">
+                    <input type="text" name="entry.469933657" id="name" placeholder="Enter your name">
+                    <input type="tel" name="entry.649845217" id="phone" placeholder="Your phone number">
+                    <textarea name="entry.973490561" id="msg" placeholder="Enter your message here..." cols="30" rows="10"></textarea>
                     <button type="submit">Submit</button>
                 </form>
             </div>
@@ -277,33 +276,6 @@
             <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.602349729903!2d74.8892062!3d31.6228806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x962fcd8a99833630!2sPower%20Control%20India!5e0!3m2!1sen!2sin!4v1634214797459!5m2!1sen!2sin"></iframe></div><style>.mapouter{position:relative;text-align:right;width:90%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:90%;height:300px;}.gmap_iframe {height:300px!important;}</style></div>
 
         </div>
-    </section>
-
-    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.602349729903!2d74.8892062!3d31.6228806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x962fcd8a99833630!2sPower%20Control%20India!5e0!3m2!1sen!2sin!4v1634214797459!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-    
-
-    <section id="form-section">
-        <div class="form-wrapper">
-            <h2>Get A Quote</h2>
-            <form action="" method="POST">
-            <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="Phone" id="phone" placeholder="Your phone number" required />
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea name="Message" id="message" rows="5" placeholder="Type your message here..."></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="submit"><i class="far fa-paper-plane"></i>Send</button>
-            </div>
-            </form>
-        </div>
-        <div class="close-btn" onclick="closeForm()"><h4>X</h4></div>
     </section>
 
     <footer>
