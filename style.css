@@ -42,23 +42,18 @@ section{
     top: 0;
     right: 0;
     width: 100%;
-    padding: 0;
-    background: linear-gradient(90deg, rgb(89, 89, 252), blue);
+    padding: 0 1%;
+    background: rgb(186, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     z-index: 5;
-    color: #FFF;
 }
 .top-bar a{
     text-decoration: none;
-    color: #FFF;
+    color: darkslategray;
 }
-.top-bar a h3 u{
-    padding-top: 5px;
-}
-
 .lion-img{
     position: relative;
     max-width: 80px;
@@ -398,11 +393,11 @@ section{
         width: 100vw;
         padding: 5px 0;
     }
-    .top-bar a h3{
+    .top-bar a h4{
         font-size: .75rem;
     }
 
-    .make-in-india h4{
+    .make-in-india h5{
         font-size: .8rem;
     }
     .lion-img{

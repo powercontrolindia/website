@@ -220,7 +220,11 @@ section{
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 .lightbox{
-    width: 80vw;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background: #fff;
     border-radius: 15px;
     height: auto;
@@ -228,13 +232,11 @@ section{
     box-sizing: content-box;
 }
 .lightbox-img{
-    position: absolute;
-    top: 5%;
-    left: 5%;
     width: 300px;
-    height: 250px;
+    height: auto;
+    margin-right: 1rem;
     object-fit: contain;
-    border-radius: inherit;
+    border-radius: 5px;
 }
 .lightbox-head{
     position: relative;
@@ -286,15 +288,10 @@ section{
 
 @media (max-width: 768px) {
     .lightbox{
-        width: 90%;
+        flex-direction: column;
     }
     .lightbox-img{
         width: 200px;
         height: 150px;
-        top: 2%;
-        left: calc(50% - 100px);
-    }
-    .lightbox-head{
-        top: 90px;
     }
 }
