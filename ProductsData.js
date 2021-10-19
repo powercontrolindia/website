@@ -129,7 +129,7 @@ const Products = [
     },
     {
         productId: 14,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC12105M%20WITH%20ALLIGATOR%20CLAMPS%20(1).jpg?alt=media&token=acaab683-a3a1-416e-a35e-1a6972290472",
+        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC12105M%20WITH%20ALLIGATOR%20CLAMPS%20(2).jpg?alt=media&token=167fdfa5-f1a7-4318-a124-6d7d7d8094ef",
         category: "SMPS Battery Charger 12V",
         title: "PCI-BC1210/5M WITH ALLIGATOR CLAMPS",
         price: "---",
