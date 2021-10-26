@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(240, 248, 255);
+}
+section{
+    position: relative;
+    width: 100%;
+    margin: 0 0 20vh;
+    padding-top: 2rem;
+    padding-left: 5px;
+}
+
+.wrapper{
+    position: relative;
+    margin: 5vh 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+#hero{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: url("../cover.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.6));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.topbar{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar img{
+    max-width: 100px;
+    height: auto;
+}
+.topbar a{
+    text-decoration: none;
+    color: #FFF;
+}
+.topbar h5, h3{
+    color: #FFF;
+}
+.topbar .welcome{
+    text-align: center;
+}
+.hero-content{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 15vh;
+    padding-left: 1rem;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-content h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-content p{
+    max-width: 40%;
+}
+.hero-content p a{
+    text-decoration: none;
+    color: aqua;
+}
+.hero-content a{
+    text-decoration: none;
+    color: #FFF;
+}
+.hero-content button{
+    width: 175px;
+    height: auto;
+    margin-top: 2rem;
+    padding: .5rem .75rem;
+    background: indigo;
+    color: #FFF;
+    border: none;
+}
+.gst-details{
+    position: absolute;
+    bottom: .5rem;
+    right: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.gst-details a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media (max-width: 768px) {
+    .topbar img{
+        max-width: 70px;
+    }
+    .topbar h5{
+        font-size: .4rem;
+    }
+    .topbar h3{
+        font-size: 0.6rem;
+    }
+    .hero-content{
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-content h1{
+        font-size: 2rem;
+    }
+    .hero-content p{
+        max-width: 80%;
+    }
+
+}
+
+
+
+.categories{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.categories-row{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.category-link{
+    position: relative;
+    width: auto;
+    height: inherit;
+    border-radius: inherit;
+    overflow: hidden;
+    text-decoration: none;
+}
+.sixty-percent{
+    width: 60%;
+}
+.fourty-percent{
+    width: 40%;
+}
+.thirty-percent{
+    width: 30%;
+}
+.category-link{
+    transition: all .4s ease;
+}
+.category-container{
+    position: relative;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category{
+    position: absolute;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #FFF;
+}
+.category::after{
+    content: "";
+    position: absolute;
+    top: -.75rem;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #FFF;
+}
+.category::before{
+    content: "";
+    position: absolute;
+    bottom: -.75rem;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #FFF;
+}
+.category-link img{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    border-radius: inherit;
+    transform: scale(.975);
+    object-fit: cover;
+    filter: brightness(.3);
+    transition: all .5s ease;
+}
+.category-link img:hover{
+    transform: scale(1.1);
+}
+.pos-down{
+    object-position: 0% 65%;
+}
+
+@media (max-width: 768px) {
+    .categories-row, .category-link img{
+        height: 20vh;
+    }
+    .category{
+        font-size: .75rem;
+        margin: 0;
+    }
+}
+
+
+.features-card{
+    width: 250px;
+    height: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid indigo;
+    border-radius: 50%;
+    background-color: indigo;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+}
+.features-card:hover{
+    background-color: #FFF;
+    color: darkslategray;
+}
+.features-img{
+    width: 50px;
+    height: 50px;
+    filter: invert(180)
+}
+.features-card:hover .features-img{
+    filter: invert(0);
+}
+.features-card p{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.products-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.customSection{
+    background: url("../abstract.jpg");
+    background-position: 0% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-card{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+.product-card img{
+    position: relative;
+    width: 250px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.product-card--content{
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 10px;
+    background: linear-gradient(180deg, indigo, rgba(76, 0, 130, 0.75));
+    color: #FFF;
+    opacity: 0;
+    z-index: 5;
+    transition: all .5s ease;
+}
+.product-card:hover .product-card--content{
+    opacity: 100%;
+    transform: translateY(5rem);
+}
+
+#contact-section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (min-width: 769px) {
+    .form-area{
+        padding-left: 1rem;
+    }
+}
+.form-area form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+.form-area form input,.form-area form textarea{
+    font-size: 1rem;
+    padding: 10px 5px;
+    margin-bottom: 1rem;
+    width: 400px !important;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+}
+.form-area form button{
+    width: auto;
+    height: auto;
+    padding: .5rem 1rem;
+    align-self: flex-start;
+    border: none;
+    border-radius: 10px;
+    background-color: #6969fa;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.form-area form button:hover{
+    background-color: #6969fa;
+}
+
+.right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.right a{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+/* Testimonials styling */
+.reviews-link{
+    margin-left: 1rem;
+}
+
+.feedback-card{
+    width: 400px;
+    height: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: blanchedalmond;
+}
+
+.customer-name, .customer-rating{
+    color: rgb(20, 20, 20);
+}
+
+/* Testimonials styling ends here */
+
+
+
+
+
+@media (max-width: 768px) {
+    .extra-space{
+        position: relative;
+        width: 100%;
+        height: 10vh;
+    }
+    .customSection{
+        padding-top: 10vh;
+    }
+
+    .products-container{
+        margin-top: 5vh;
+    }
+    .product-card{
+        width: 200px;
+        height: auto;
+    }
+    .product-card img{
+        width: 100%;
+    }
+    .product-card h3, .product-card p{
+        transform: scale(.9);
+        margin-left: 5px;
+    }
+
+
+    #contact-section{
+        flex-direction: column;
+    }
+    .form-area form input,.form-area form textarea{
+        width: 80vw !important;
+    }
+    .right{
+        width: 100%;
+        margin-top: 5vh;
+        padding-left: 2rem;
+    }
+}

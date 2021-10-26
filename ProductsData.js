@@ -11,7 +11,7 @@ const lightboxAddInfo = document.getElementById("lightboxAddInfo");
 const Products = [
     {
         productId: 1,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-7_cover.jpg?alt=media&token=1ebd6965-bf57-4f58-81a6-17b34dc996a1",
+        img: "assets/PCI-7 (1).jpg",
         category: "Brushless AVR",
         title: "PCI-7",
         price: "699 per piece",
@@ -21,7 +21,7 @@ const Products = [
     },
     {
         productId: 2,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-7A%20%20cover.jpg?alt=media&token=7a48c38b-baef-4eec-a043-49791f53727d",
+        img: "assets/PCI-7A (1).jpg",
         category: "Brushless AVR",
         title: "PCI-7A",
         price: "850 per piece",
@@ -30,7 +30,7 @@ const Products = [
     },
     {
         productId: 3,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-A3M%20cover.jpg?alt=media&token=d4512f36-3992-43d1-a9b5-a58ab45114fa",
+        img: "assets/PCI- A3M.jpg",
         category: "Brushless AVR",
         title: "PCI-A3M",
         price: "1,099 per piece",
@@ -39,7 +39,7 @@ const Products = [
     },
     {
         productId: 4,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/TAVR%2020%20cover%20.jpg?alt=media&token=3f39b843-48fa-4da6-9ac7-76cf4c1ad65f",
+        img: "assets/PCI-TAVR20 (1).jpg",
         category: "Brushless AVR",
         title: "PCI-TAVR20",
         price: "999 per piece",
@@ -48,7 +48,7 @@ const Products = [
     },
     {
         productId: 5,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-CR%20cover.jpg?alt=media&token=e2e067cf-19b8-4e73-9421-1a258753eb47",
+        img: "assets/PCI-CR (1).jpg",
         category: "Brushless AVR",
         title: "PCI-CR",
         price: "--- per piece",
@@ -57,7 +57,7 @@ const Products = [
     },
     {
         productId: 6,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/pci%206m%20(1).jpg?alt=media&token=0435b3f5-e531-4652-8af5-2846fc50941a",
+        img: "assets/PCI-6M (10 AMPERE – 1 PHASE) (1).jpg",
         category: "Slipring AVR",
         title: "PCI-6M (10 AMPERE – 1 PHASE)",
         price: "1599 per piece",
@@ -66,7 +66,7 @@ const Products = [
     },
     {
         productId: 7,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/pci%206m%20(2).jpg?alt=media&token=40836af3-6df7-4c83-9642-ccdf80112ea7",
+        img: "assets/PCI-6M (10 AMPERE – 3 PHASE) (1).jpg",
         category: "Slipring AVR",
         title: "PCI-6M (10 AMPERE – 3 PHASE)",
         price: "1599 per piece",
@@ -75,7 +75,7 @@ const Products = [
     },
     {
         productId: 8,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/pci%206m%20(3).jpg?alt=media&token=7ac24215-a260-47c9-a550-6d1e1094eda7",
+        img: "assets/PCI-6M (40 AMPERE – 1 PHASE) (1).jpg",
         category: "Slipring AVR",
         title: "PCI-6M (40 AMPERE – 1 PHASE)",
         price: "1599 per piece",
@@ -84,16 +84,16 @@ const Products = [
     },
     {
         productId: 9,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/pci%206m%20(4).jpg?alt=media&token=6cc8c41a-be4c-418c-85bd-6d349d5bea2f",
+        img: "assets/PCI-6M (40 AMPERE – 3 PHASE) (1).jpg",
         category: "Slipring AVR",
-        title: "PCI-6M (10 AMPERE – 3 PHASE)",
+        title: "PCI-6M (40 AMPERE – 3 PHASE)",
         price: "1599 per piece",
         techDesc: "Input Volt: 1 phase AND NEUTRAL 230VAC <br>50Hz Output Volt: 0-200V <br>10 AMP FULL Wave phase Controlled DC <br>In Built STAB Circuit <br>In Built FRO Circuit <br>Voltage Regulation: +/-0.1% <br>Voltage Setting: +/-10% <br>Model: PCI-6M 200V <br>Single Phase",
         addInfo: "Item Code: PCI-6M"
     },
     {
         productId: 10,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/Sx440%20cover.jpg?alt=media&token=42d29128-d907-4058-bd4f-8b74bd8f6c89",
+        img: "assets/SX440 (1).jpg",
         category: "Stamford AVR",
         title: "SX440",
         price: "2449 per piece",
@@ -102,7 +102,7 @@ const Products = [
     },
     {
         productId: 11,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/Sx460%20cover.jpg?alt=media&token=0a08a2ca-000f-4b91-9719-d405b3ceb0f7",
+        img: "assets/SX460 (2).jpg",
         category: "Stamford AVR",
         title: "SX460",
         price: "1249 per piece",
@@ -111,7 +111,7 @@ const Products = [
     },
     {
         productId: 12,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC1210M%20WITH%20NO-NC%20(4).jpg?alt=media&token=c4538653-cb65-4407-a1e6-ec92a99d3404",
+        img: "assets/PCI-BC1210M WITH NO-NC (1).jpg",
         category: "SMPS Battery Charger 12V",
         title: "PCI-BC1210M WITH NO-NC",
         price: "1299 per piece",
@@ -120,7 +120,7 @@ const Products = [
     },
     {
         productId: 13,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC1210P%20WITH%20NO-NC%20(1).jpg?alt=media&token=065e53ae-c76b-4c04-bb32-3b236743c19f",
+        img: "assets/PCI-BC1210P WITH NO-NC (2).jpg",
         category: "SMPS Battery Charger 12V",
         title: "PCI-BC1210P WITH NO-NC",
         price: "---",
@@ -129,7 +129,7 @@ const Products = [
     },
     {
         productId: 14,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC12105M%20WITH%20ALLIGATOR%20CLAMPS%20(2).jpg?alt=media&token=167fdfa5-f1a7-4318-a124-6d7d7d8094ef",
+        img: "assets/PCI-BC12105M WITH ALLIGATOR CLAMPS (1).jpg",
         category: "SMPS Battery Charger 12V",
         title: "PCI-BC1210/5M WITH ALLIGATOR CLAMPS",
         price: "---",
@@ -138,7 +138,7 @@ const Products = [
     },
     {
         productId: 15,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC2410M.jpg?alt=media&token=5559afe3-2a76-4da9-84f6-010908d7cdbe",
+        img: "assets/PCI-BC2410M.jpg",
         category: "SMPS Battery Charger 24V",
         title: "PCI-BC2410M",
         price: "---",
@@ -147,7 +147,7 @@ const Products = [
     },
     {
         productId: 16,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC2410_12V%20MULTI%20ampere%20meter%20(1).jpg?alt=media&token=014933c8-1c40-41e5-8c60-63ceea30d4d1",
+        img: "assets/PCI-BC241012V MULTI (WITH AMPERE METER) (1).jpg",
         category: "SMPS Battery Charger 24V",
         title: "PCI-BC2410/12V MULTI (WITH AMPERE METER)",
         price: "1999 per piece",
@@ -156,7 +156,7 @@ const Products = [
     },
     {
         productId: 17,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-BC2410_12V%20MULTI%20ampere%20meter%20(3).jpg?alt=media&token=32e1832b-a803-430b-93ea-b3fcc1e7cb2e",
+        img: "assets/PCI-BC241012V MULTI (WITH DIGITAL DISPLAY) (1).jpg",
         category: "SMPS Battery Charger 24V",
         title: "PCI-BC2410/12V MULTI (WITH DIGITAL DISPLAY)",
         price: "2299 per piece",
@@ -246,7 +246,7 @@ const Products = [
     },
     {
         productId: 27,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/PCI-ASU%20(2).jpg?alt=media&token=3e870dba-c594-46f6-815b-742a38029375",
+        img: "assets/PCI-ASU (1).jpg",
         category: "Auto Generator Stop Unit",
         title: "PCI ASU",
         price: "599 per piece",
@@ -255,7 +255,7 @@ const Products = [
     },
     {
         productId: 28,
-        img: "https://5.imimg.com/data5/SELLER/Default/2021/8/IB/EY/NF/40930076/se-hm-1-hour-meter-220-24-ac-dc-500x500-500x500.jpg",
+        img: "assets/PCI-HM1 1 (2).jpg",
         category: "Hour Meter",
         title: "PCI HM1",
         price: "349 per piece",
@@ -264,7 +264,7 @@ const Products = [
     },
     {
         productId: 29,
-        img: "https://5.imimg.com/data5/ANDROID/Default/2021/3/BN/ZD/KH/40930076/product-jpeg-500x500.jpg",
+        img: "assets/PCI-MT6 (1).jpg",
         category: "Electric Rectifier",
         title: "PCI MT6",
         price: "350 per piece",
@@ -273,7 +273,7 @@ const Products = [
     },
     {
         productId: 30,
-        img: "assets/sample.jpg",
+        img: "assets/IRI-MT16 (1).jpg",
         category: "IRI",
         title: "PCI IRI",
         price: "---",
@@ -291,8 +291,8 @@ const Products = [
     },
     {
         productId: 32,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/kg541.jpg?alt=media&token=778aab5d-5d13-4492-971b-fbba6266ac43",
-        category: "",
+        img: "assets/KG541 CONTROLLER (1).jpg",
+        category: "Koel Green Controller",
         title: "KG541",
         price: "4899 per piece",
         techDesc: "Genset Brand	KOEL by Kirloskar <br>Model Number	KG 541 <br>Phase	3-Phase <br>Usage/Application	Industrial <br>Warranty	1 Year",
@@ -309,7 +309,7 @@ const Products = [
     },
     {
         productId: 34,
-        img: "https://5.imimg.com/data5/ANDROID/Default/2021/3/BN/ZD/KH/40930076/product-jpeg-500x500.jpg",
+        img: "assets/GMS543E CONTROLLER (1).jpg",
         category: "Koel Green Controller",
         title: "GMS534E",
         price: "---",
@@ -318,13 +318,16 @@ const Products = [
     },
     {
         productId: 35,
-        img: "https://firebasestorage.googleapis.com/v0/b/website-3b0cf.appspot.com/o/hmi%20211%20.jpg?alt=media&token=221cc51e-678d-478a-a5cc-434ae018dc4f",
+        img: "assets/HMI-211 (2).jpg",
         category: "Cummins Controller",
         title: "HMI 211",
         price: "23,500 per piece",
         techDesc: "Model Name/Number	hmi 211 <br>Brand	Cummins <br>Usage/Application	Power Command Controller <br>Mounting Type	Panel Mount <br>Phase	Three phase <br>Display Resolution	Digital <br>Touch Screen Type	NON TOUCHSCREEN",
         addInfo: "Item Code: HMI211 <br>Packaging Details: BOX PACKING"
-    }
+    },
+    
+
+    //Enter product info for pop-up above this line only
 ]
 
 // Products database ends here
